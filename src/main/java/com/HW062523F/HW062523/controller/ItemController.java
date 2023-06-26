@@ -22,6 +22,6 @@ public class ItemController {
     }
     @GetMapping("/get")
     public List<Integer> getItems(){
-        return orderService.getItems();
+        return orderService.getItems() ;
     }
 }
